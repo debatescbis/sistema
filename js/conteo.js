@@ -17,8 +17,22 @@ var app = new Vue({
         item11equipo1: 0,
         item12equipo1: 0,
         item13equipo1: 0,
-        item14equipo1: 0
+        item14equipo1: 0,
         //definicendo variables para segundo equipo
+        item1equipo2: 0,
+        item2equipo2: 0,
+        item3equipo2: 0,
+        item4equipo2: 0,
+        item5equipo2: 0,
+        item6equipo2: 0,
+        item7equipo2: 0,
+        item8equipo2: 0,
+        item9equipo2: 0,
+        item10equipo2: 0,
+        item11equipo2: 0,
+        item12equipo2: 0,
+        item13equipo2: 0,
+        item14equipo2: 0
     },
     methods: {
         sumar: function (event) {
