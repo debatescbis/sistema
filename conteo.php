@@ -10,7 +10,7 @@
    <div class="container">
    <div class="logos">
       <center><h3>TERCER CERTAMEN DE DEBATES INSTITUCIONAL</h3></center>
-      <center><img src="debatelog.png" alt=""></center>
+      <center><img src="debatelog.png" alt="" widht="300px" height="300px"></center>
     </div>
     <?php
     echo "<center>Bienvenid@ ".$_REQUEST['nombre_juez']."</center>";
@@ -292,7 +292,7 @@
         <div class="row">
         <div class="col">
         <?php
-            echo $_REQUEST['nombre_equipo1'];
+            echo $_REQUEST['nombre_equipo2'];
           ?>
           <!-- primer item -->
           <h4>1. Estructura y claridad</h4>
@@ -562,7 +562,7 @@
     //echo $_REQUEST['hora'];
     ?>
     <?php 
-   $conexion=mysqli_connect("localhost","root","","Sistema_puntuaciones") or
+   $conexion=mysqli_connect("localhost","root","lasttip","Sistema_puntuaciones") or
    die("Problemas con la conexión");
 
     mysqli_query($conexion,"insert into Jueces(nombre_juez) values 
