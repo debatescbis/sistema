@@ -303,7 +303,7 @@
             1.1 Orden logico de la exposicion 
             </div>
             <div class="col">
-            <select class="" name="orden_logico_exposicion">
+            <select class="" name="1.1equipo2" v-model="item1equipo2" v-on:click="sumarequipo2">
               <option value="0">0</option>
               <option value="1">1</option>
               <option value="2">2</option>
@@ -320,7 +320,7 @@
                 1.2 Coherencia 
               </div>
               <div class="col">
-                  <select class="" name="coherencia">
+                  <select class="" name="1.2equipo2" v-model="item2equipo2" v-on:click="sumarequipo2">
                   <option value="0">0</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
