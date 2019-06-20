@@ -58,40 +58,83 @@
               </div>
             </div>
           <!-- fin de segundo item -->
+          <!-- tercer item -->
+            <div class="row">
+                <div class="col">
+                  1.3 exposicion clara
+                </div>
+                <div class="col">
+                    <select class="" name="coordinacion_miembros">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select> <br>
+                </div>
+            </div>
             
-          1.3 exposicion clara <select class="" name="exposicion_clara">
-            <option value="0">0</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-          </select> <br>
-          1.4 exposicion coordinada entre miembros <select class="" name="coordinacion_miembros">
-            <option value="0">0</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-          </select> <br>
-          <h4>2. Habilidad de expresion</h4>
-          2.1 oratoria <select class="" name="oratoria">
-            <option value="0">0</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-          </select> <br>
-          2.2 Diccion <select class="" name="diccion">
-            <option value="0">0</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-          </select> <br>
+          <!-- fin tercer item -->
+          <!-- cuarto item -->
+            <div class="row">
+              <div class="col">
+              1.4 exposicion coordinada entre miembros
+              </div>
+              <div class="col">
+                <select class="" name="coordinacion_miembros">
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select> <br>
+              </div>
+            </div>
+          <!-- fincuarto item -->
+          <!-- quinto item -->
+            <div class="row">
+              <div class="col">
+                <h4>2. Habilidad de expresion</h4>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                2.1 oratoria 
+              </div>
+              <div class="col">
+              <select class="" name="oratoria">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select> <br>
+              </div>
+            </div>
+          <!-- fin quinto item -->
+          <!-- sexto item -->
+            <div class="row">
+              <div class="col">
+                2.2 Diccion 
+              </div>
+              <div class="col">
+                <select class="" name="diccion">
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  </select> <br>
+              </div>
+            </div>
+          <!-- sexto item -->
+          
+          
+          
           2.3 Expresion corporal <select class="" name="expresion_corporal">
             <option value="0">0</option>
             <option value="1">1</option>
@@ -162,7 +205,7 @@
         </form>
         <input type="text">
       </div>
-        <div class="col">
+        <div class="col"><!-- segunda tabla alineada a la derecha -->
         <div class="tabla-2">
         <form class="text" action="index.html" method="post">
         <?php
