@@ -1,2 +1,0 @@
-# sistema
-sistema de puntajes
