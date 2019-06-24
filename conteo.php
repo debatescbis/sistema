@@ -15,6 +15,7 @@
       <center><img src="debatelog.png" alt="" widht="300px" height="300px"></center>
     </div>
     <?php
+    include 'index.php';
     echo "<center>Bienvenid@ ".$_REQUEST['nombre_juez']."</center>";
     ?>
     <div class="puntos">
@@ -337,7 +338,7 @@
                   1.3 exposicion clara
                 </div>
                 <div class="col">
-                    <select class="" name="coordinacion_miembros">
+                    <select class="" name="1.3equipo2" v-model="item3equipo2" v-on:click="sumarequipo2"> 
                     <option value="0">0</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -355,7 +356,7 @@
               1.4 exposicion coordinada entre miembros
               </div>
               <div class="col">
-                <select class="" name="coordinacion_miembros">
+                <select class="" name="1.4equipo2" v-model="item4equipo2" v-on:click="sumarequipo2">
                   <option value="0">0</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
@@ -377,7 +378,7 @@
                 2.1 oratoria 
               </div>
               <div class="col">
-              <select class="" name="oratoria">
+              <select class="" name="2.1equipo2" v-model="item5equipo2" v-on:click="sumarequipo2">
                 <option value="0">0</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -394,7 +395,7 @@
                 2.2 Diccion 
               </div>
               <div class="col">
-                <select class="" name="diccion">
+                <select class="" name="2.2equipo2" v-model="item6equipo2" v-on:click="sumarequipo2">
                   <option value="0">0</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
@@ -411,7 +412,7 @@
                 2.3 Expresion corporal 
               </div>
               <div class="col">
-                <select class="" name="expresion_corporal">
+                <select class="" name="2.3equipo2" v-model="item7equipo2" v-on:click="sumarequipo2">
                   <option value="0">0</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
@@ -428,7 +429,7 @@
                 2.4 Capacidad de captar atencion 
               </div>
               <div class="col">
-                <select class="" name="capatar_atencion">
+                <select class="" name="2.4equipo2" v-model="item8equipo2" v-on:click="sumarequipo2">
                   <option value="0">0</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
@@ -450,7 +451,7 @@
                   3.1 Capacidad de sostener un argumento 
                 </div>
                 <div class="col">
-                  <select class="" name="sostener_argumento">
+                  <select class="" name="3.1equipo2" v-model="item9equipo2" v-on:click="sumarequipo2">
                     <option value="0">0</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -467,7 +468,7 @@
                 3.2 Capacidad de refutar argumentos contrarios 
               </div>
               <div class="col">
-              <select class="" name="refutar_argumentos">
+              <select class="" name="3.2equipo2" v-model="item10equipo2" v-on:click="sumarequipo2">
                 <option value="0">0</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -484,7 +485,7 @@
                 3.3 Tecnica de debate 
               </div>
               <div class="col">
-              <select class="" name="tecnica">
+              <select class="" name="3.3equipo2" v-model="item11equipo2" v-on:click="sumarequipo2">
                 <option value="0">0</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -507,7 +508,7 @@
                 4.1 Uso efectivo de citas e investigacion 
               </div>
               <div class="col">
-              <select class="" name="investigacion">
+              <select class="" name="4.1equipo2" v-model="item12equipo2" v-on:click="sumarequipo2">
                 <option value="0">0</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -525,7 +526,7 @@
               4.2 Diversidad de fuentes 
               </div>
               <div class="col">
-              <select class="" name="diversidad">
+              <select class="" name="4.2equipo2" v-model="item13equipo2" v-on:click="sumarequipo2">
                 <option value="0">0</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -543,7 +544,7 @@
                   4.3 Relevancia 
               </div>
               <div class="col">
-              <select class="" name="relevancia">
+              <select class="" name="4.3equipo2" v-model="item14equipo2" v-on:click="sumarequipo2">
                 <option value="0">0</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -558,25 +559,17 @@
         
       </div>
       <input type="submit" name="" value="Calificar">
-        </form>
+     </form>
         <input type="text" v-model="contadorequipo2"><!-- countertwo here -->
     <?php
     //echo $_REQUEST['hora'];
     ?>
-    <?php 
-   $conexion=mysqli_connect("localhost","root","lasttip","Sistema_puntuaciones") or
-   die("Problemas con la conexión");
-
-    mysqli_query($conexion,"insert into Jueces(nombre_juez) values 
-                      ('$_REQUEST[nombre_juez]')")
-      or die("Problemas en el select".mysqli_error($conexion));
-
-    mysqli_close($conexion);
-    ?>
+    
    </div>
   </div>
+ 
     <!-- development version, includes helpful console warnings -->
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-  <script src="js/conteo.js"></script>
+  <script src="conteo.js"></script>
   </body>
 </html>
