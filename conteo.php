@@ -23,9 +23,14 @@
         <form class="text" action="" method="post">
       <div class="row">
         <div class="col">
+        <select name="postura_1" id="">
+            <option value="1">A favor</option>
+            <option value="2">En contra</option>
+          </select>
         <?php
-            echo $_REQUEST['nombre_equipo1'];
+            echo $_REQUEST['equipo1'];
           ?>
+          
           <!-- primer item -->
           <h4>1. Estructura y claridad</h4>
           <div class="row">
@@ -288,15 +293,20 @@
           
           
           <button v-on:click="sumar">Calificar</button>
-        </form>
+        
         <input type="text" v-model="contadorequipo1" ><!-- counterone here -->
       </div>
         <div class="col"><!-- segunda tabla alineada a la derecha -->
         <div class="row">
         <div class="col">
+        <select name="postura_1" id="">
+            <option value="1">A favor</option>
+            <option value="2">En contra</option>
+          </select>
         <?php
-            echo $_REQUEST['nombre_equipo2'];
+            echo $_REQUEST['equipo2'];
           ?>
+            
           <!-- primer item -->
           <h4>1. Estructura y claridad</h4>
           <div class="row">
