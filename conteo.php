@@ -321,7 +321,7 @@
           
           
           
-          <button v-on:click="sumar">Calificar</button>
+
         
         <input type="text" v-model="contadorequipo1" ><!-- counterone here -->
       </div>
@@ -627,7 +627,7 @@
         </div><!-- aquit termina el primer col -->
         
       </div>
-      <input type="submit" name="" value="Calificar">
+
      </form>
         <input type="text" v-model="contadorequipo2"><!-- countertwo here -->
     <?php
