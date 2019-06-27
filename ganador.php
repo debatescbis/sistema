@@ -1,18 +1,15 @@
-<?php
-$orden_logico_exposicion = $_['orden_logico_exposicion'];
-$coherencia = $POST_['coherencia']
-$exposicion_clara = $POST_['exposicion_clara']
-$coordinacion_miembros
-$oratoria
-$diccion
-$expresion_corporal
-$captar_atencion
-$sostener_argumento
-$refutar_argumentos
-$tecnica
-$investigacion
-$diversidad
-$relevancia
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <?php
+    
 
-echo Total=$_REQUEST['orden_logico_exposicion'] + $_REQUEST['coherencia'];
- ?>
+    ?>
+</body>
+</html>

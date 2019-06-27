@@ -13,6 +13,7 @@
     mysqli_query($conexion,"insert into Equipos(nombre_equipo) values 
                       ('$_REQUEST[equipo2]')")
       or die("Problemas en el select".mysqli_error($conexion));
+    
 
 
     mysqli_close($conexion);
