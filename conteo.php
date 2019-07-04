@@ -29,15 +29,15 @@
         <?php
             echo $_REQUEST['equipo1'];
           ?>
-          
+
           <!-- primer item -->
           <h4>1. Estructura y claridad</h4>
           <div class="row">
             <div class="col">
-            1.1 Orden logico de la exposicion 
+            1.1 Orden logico de la exposicion
             </div>
             <div class="col">
-            <select class="" name="1.1equipo1" v-model="item1equipo1" v-on:click="sumar">       
+            <select class="" name="1.1equipo1" v-model="item1equipo1" v-on:click="sumar">
               <option value="0">0</option>
               <option value="1">1</option>
               <option value="2">2</option>
@@ -51,7 +51,7 @@
           <!-- segundo item -->
             <div class="row">
               <div class="col">
-                1.2 Coherencia 
+                1.2 Coherencia
               </div>
               <div class="col">
                   <select class="" name="1.2equipo1"  v-model="item2equipo1" v-on:click="sumar">
@@ -81,7 +81,7 @@
                   </select> <br>
                 </div>
             </div>
-            
+
           <!-- fin tercer item -->
           <!-- cuarto item -->
             <div class="row">
@@ -108,7 +108,7 @@
             </div>
             <div class="row">
               <div class="col">
-                2.1 oratoria 
+                2.1 oratoria
               </div>
               <div class="col">
               <select class="" name="2.1equipo1" v-model="item5equipo1" v-on:click="sumar">
@@ -125,7 +125,7 @@
           <!-- sexto item -->
             <div class="row">
               <div class="col">
-                2.2 Diccion 
+                2.2 Diccion
               </div>
               <div class="col">
                 <select class="" name="2.2equipo1" v-model="item6equipo1" v-on:click="sumar">
@@ -142,7 +142,7 @@
           <!-- septimo item -->
             <div class="row">
               <div class="col">
-                2.3 Expresion corporal 
+                2.3 Expresion corporal
               </div>
               <div class="col">
                 <select class="" name="2.3equipo1" v-model="item7equipo1" v-on:click="sumar">
@@ -159,7 +159,7 @@
           <!-- octavo item -->
             <div class="row">
               <div class="col">
-                2.4 Capacidad de captar atencion 
+                2.4 Capacidad de captar atencion
               </div>
               <div class="col">
                 <select class="" name="2.4equipo1" v-model="item8equipo1" v-on:click="sumar">
@@ -181,7 +181,7 @@
               </div>
               <div class="row">
                 <div class="col">
-                  3.1 Capacidad de sostener un argumento 
+                  3.1 Capacidad de sostener un argumento
                 </div>
                 <div class="col">
                   <select class="" name="3.1equipo1" v-model="item9equipo1" v-on:click="sumar">
@@ -203,7 +203,7 @@
           <!-- decimo item -->
             <div class="row">
               <div class="col">
-                3.2 Capacidad de refutar argumentos contrarios 
+                3.2 Capacidad de refutar argumentos contrarios
               </div>
               <div class="col">
               <select class="" name="3.2equipo1" v-model="item10equipo1" v-on:click="sumar">
@@ -225,7 +225,7 @@
           <!-- decimo primer item -->
             <div class="row">
               <div class="col">
-                3.3 Tecnica de debate 
+                3.3 Tecnica de debate
               </div>
               <div class="col">
               <select class="" name="3.3equipo1" v-model="item11equipo1" v-on:click="sumar">
@@ -253,7 +253,7 @@
           </div>
           <div class="row">
               <div class="col">
-                4.1 Uso efectivo de citas e investigacion 
+                4.1 Uso efectivo de citas e investigacion
               </div>
               <div class="col">
               <select class="" name="4.1equipo1" v-model="item12equipo1" v-on:click="sumar">
@@ -276,7 +276,7 @@
           <!-- decimo tercer item -->
           <div class="row">
               <div class="col">
-              4.2 Diversidad de fuentes 
+              4.2 Diversidad de fuentes
               </div>
               <div class="col">
               <select class="" name="4.2equipo1" v-model="item13equipo1" v-on:click="sumar">
@@ -299,7 +299,7 @@
           <!-- decimo cuarto item -->
           <div class="row">
               <div class="col">
-                  4.3 Relevancia 
+                  4.3 Relevancia
               </div>
               <div class="col">
               <select class="" name="4.3equipo1" v-model="item14equipo1" v-on:click="sumar">
@@ -317,12 +317,12 @@
               </select> <br>
               </div>
             </div>
-          <!-- fin decimo cuarto item -->    
-          
-          
-          
+          <!-- fin decimo cuarto item -->
 
-        
+
+
+
+
         <input type="text" v-model="contadorequipo1" ><!-- counterone here -->
       </div>
         <div class="col"><!-- segunda tabla alineada a la derecha -->
@@ -335,12 +335,12 @@
         <?php
             echo $_REQUEST['equipo2'];
           ?>
-            
+
           <!-- primer item -->
           <h4>1. Estructura y claridad</h4>
           <div class="row">
             <div class="col">
-            1.1 Orden logico de la exposicion 
+            1.1 Orden logico de la exposicion
             </div>
             <div class="col">
             <select class="" name="1.1equipo2" v-model="item1equipo2" v-on:click="sumarequipo2">
@@ -357,7 +357,7 @@
           <!-- segundo item -->
             <div class="row">
               <div class="col">
-                1.2 Coherencia 
+                1.2 Coherencia
               </div>
               <div class="col">
                   <select class="" name="1.2equipo2" v-model="item2equipo2" v-on:click="sumarequipo2">
@@ -377,7 +377,7 @@
                   1.3 exposicion clara
                 </div>
                 <div class="col">
-                    <select class="" name="1.3equipo2" v-model="item3equipo2" v-on:click="sumarequipo2"> 
+                    <select class="" name="1.3equipo2" v-model="item3equipo2" v-on:click="sumarequipo2">
                     <option value="0">0</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -387,7 +387,7 @@
                   </select> <br>
                 </div>
             </div>
-            
+
           <!-- fin tercer item -->
           <!-- cuarto item -->
             <div class="row">
@@ -414,7 +414,7 @@
             </div>
             <div class="row">
               <div class="col">
-                2.1 oratoria 
+                2.1 oratoria
               </div>
               <div class="col">
               <select class="" name="2.1equipo2" v-model="item5equipo2" v-on:click="sumarequipo2">
@@ -431,7 +431,7 @@
           <!-- sexto item -->
             <div class="row">
               <div class="col">
-                2.2 Diccion 
+                2.2 Diccion
               </div>
               <div class="col">
                 <select class="" name="2.2equipo2" v-model="item6equipo2" v-on:click="sumarequipo2">
@@ -448,7 +448,7 @@
           <!-- septimo item -->
             <div class="row">
               <div class="col">
-                2.3 Expresion corporal 
+                2.3 Expresion corporal
               </div>
               <div class="col">
                 <select class="" name="2.3equipo2" v-model="item7equipo2" v-on:click="sumarequipo2">
@@ -465,7 +465,7 @@
           <!-- octavo item -->
             <div class="row">
               <div class="col">
-                2.4 Capacidad de captar atencion 
+                2.4 Capacidad de captar atencion
               </div>
               <div class="col">
                 <select class="" name="2.4equipo2" v-model="item8equipo2" v-on:click="sumarequipo2">
@@ -487,7 +487,7 @@
               </div>
               <div class="row">
                 <div class="col">
-                  3.1 Capacidad de sostener un argumento 
+                  3.1 Capacidad de sostener un argumento
                 </div>
                 <div class="col">
                   <select class="" name="3.1equipo2" v-model="item9equipo2" v-on:click="sumarequipo2">
@@ -509,7 +509,7 @@
           <!-- decimo item -->
             <div class="row">
               <div class="col">
-                3.2 Capacidad de refutar argumentos contrarios 
+                3.2 Capacidad de refutar argumentos contrarios
               </div>
               <div class="col">
               <select class="" name="3.2equipo2" v-model="item10equipo2" v-on:click="sumarequipo2">
@@ -531,7 +531,7 @@
           <!-- decimo primer item -->
             <div class="row">
               <div class="col">
-                3.3 Tecnica de debate 
+                3.3 Tecnica de debate
               </div>
               <div class="col">
               <select class="" name="3.3equipo2" v-model="item11equipo2" v-on:click="sumarequipo2">
@@ -559,7 +559,7 @@
           </div>
           <div class="row">
               <div class="col">
-                4.1 Uso efectivo de citas e investigacion 
+                4.1 Uso efectivo de citas e investigacion
               </div>
               <div class="col">
               <select class="" name="4.1equipo2" v-model="item12equipo2" v-on:click="sumarequipo2">
@@ -582,7 +582,7 @@
           <!-- decimo tercer item -->
           <div class="row">
               <div class="col">
-              4.2 Diversidad de fuentes 
+              4.2 Diversidad de fuentes
               </div>
               <div class="col">
               <select class="" name="4.2equipo2" v-model="item13equipo2" v-on:click="sumarequipo2">
@@ -605,7 +605,7 @@
           <!-- decimo cuarto item -->
           <div class="row">
               <div class="col">
-                  4.3 Relevancia 
+                  4.3 Relevancia
               </div>
               <div class="col">
               <select class="" name="4.3equipo2" v-model="item14equipo2" v-on:click="sumarequipo2">
@@ -623,9 +623,9 @@
               </select> <br>
               </div>
             </div>
-          <!-- fin decimo cuarto item -->  
+          <!-- fin decimo cuarto item -->
         </div><!-- aquit termina el primer col -->
-        
+
       </div>
 
      </form>
@@ -633,10 +633,10 @@
     <?php
     //echo $_REQUEST['hora'];
     ?>
-    
+
    </div>
   </div>
- 
+
     <!-- development version, includes helpful console warnings -->
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <script src="conteo.js"></script>
