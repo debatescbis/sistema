@@ -1,5 +1,5 @@
 <?php 
-   $conexion=mysqli_connect("localhost","root","JESUCRISTO12","Sistema_puntuaciones") or
+   $conexion=mysqli_connect("localhost","root","slayer24","Sistema_puntuaciones") or
    die("Problemas con la conexión");
 
     mysqli_query($conexion,"insert into Jueces(nombre_juez) values 

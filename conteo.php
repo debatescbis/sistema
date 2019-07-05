@@ -12,7 +12,7 @@
   <div class="container">
    <div class="logos">
       <center><h3>TERCER CERTAMEN DE DEBATES INSTITUCIONAL</h3></center>
-      <center><img src="debatelog.png" alt="" widht="300px" height="300px"></center>
+      <center><img src="debatelog.png" alt="" widht="200px" height="250px"></center>
     </div>
     <?php
     echo "<center>Bienvenid@ ".$_REQUEST['nombre_juez']."</center>";
